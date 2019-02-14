@@ -12,7 +12,7 @@ module.exports.displayAboutPage = (req, res, next ) => {
   }
 
 module.exports.displayProductPage = (req, res, next ) => {
-    res.render('index', { title: 'Products' });
+    res.render('index', { title: 'Projects' });
   }
 
 module.exports.displayServicePage = (req, res, next ) => {
