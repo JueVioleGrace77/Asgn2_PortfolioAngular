@@ -9,7 +9,10 @@
 
         <% if (title == "About") { %>
          <% include ./contents/about.ejs %>
-          <a class="btn btn-primary" href="/about-list" role="button">My Favorite Things</a>
+        <% } %>
+
+        <% if (title == "Projects") { %>
+         <% include ./contents/project.ejs %>
         <% } %>
 
         <% if (title == "Services") { %>

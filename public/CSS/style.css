@@ -24,13 +24,23 @@
     text-align: center;
 }
 
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+
+ul {
+    list-style-type: square;
+  }
+  
+
 
 /* Contact CSS */
 .contact{
     padding: 4%;
 }
 .col-md-3{
-    background: #DFAE6A;
+    background: #C98F3E;
     padding: 4%;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
@@ -47,7 +57,7 @@
 }
 
 .wrap:hover {
-    background: linear-gradient(135deg,#8EAEF3 0%,#425A8F 100%);
+    background: linear-gradient(135deg,#CE9A34 0%,#F7A000 100%);
     color: white;
 }
 
