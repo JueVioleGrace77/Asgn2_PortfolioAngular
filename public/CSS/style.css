@@ -1,3 +1,8 @@
+/*
+    Student Name: Harvey Cabrias
+    Student ID: 300906772
+    Date: 2/16/2019
+*/
 .img-service {
     width:110px;
     height:110px;
@@ -11,6 +16,10 @@
     margin-right: auto;
 }
 
+.logo{
+    width: 50px;
+    height: 50px;
+}
 .profile{
     max-width:25%;
     max-height:25%;
@@ -23,6 +32,14 @@
 .project{
     max-width:20%;
     max-height:25%;
+    object-fit: contain;
+    float: left;
+    margin-right:10px;
+    padding:2px
+}
+.munchies{
+    max-width:13%;
+    max-height:13%;
     object-fit: contain;
     float: left;
     margin-right:10px;
