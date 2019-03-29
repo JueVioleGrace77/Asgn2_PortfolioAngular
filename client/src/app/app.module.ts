@@ -1,11 +1,11 @@
 //Modules
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
 //Components
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './partials/header/header.component';
 import { FooterComponent } from './partials/footer/footer.component';
@@ -20,6 +20,8 @@ import { ContactListComponent } from './contacts/contact-list/contact-list.compo
 
 //Services
 import { FlashMessagesModule, FlashMessagesService } from 'angular2-flash-messages';
+import { ContactDeleteComponent } from './contacts/contact-delete/contact-delete.component';
+import { ContactDetailsComponent } from './contacts/contact-details/contact-details.component';
 
 @NgModule({
   declarations: [
@@ -33,11 +35,15 @@ import { FlashMessagesModule, FlashMessagesService } from 'angular2-flash-messag
     ServicesComponent,
     ContactComponent,
     PageNotFoundComponent,
-    ContactListComponent
+    ContactListComponent,
+
+    ContactDetailsComponent,
+    ContactDeleteComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     HttpClientModule,
     FlashMessagesModule
   ],
