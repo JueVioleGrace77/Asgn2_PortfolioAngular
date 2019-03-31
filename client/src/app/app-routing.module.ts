@@ -19,7 +19,7 @@ import { LoginComponent } from './pages/login/login.component';
 const routes: Routes = [
   {path: 'home', component: HomeComponent, data: {title: 'Home'}},
   {path: 'about', component: AboutComponent, data: {title: 'About'}},
-  {path: 'products', component: ProductsComponent, data: {title: 'Products'}},
+  {path: 'projects', component: ProductsComponent, data: {title: 'Projects'}},
   {path: 'services', component: ServicesComponent, data: {title: 'Services'}},
   {path: 'contact', component: ContactComponent, data: {title: 'Contact'}},
 
